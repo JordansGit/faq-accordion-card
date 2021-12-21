@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400; 
+}
+
+.container {
+  background: white;
+  width: 1100px; 
+  height: 65%; 
+  display: flex;
+  position: relative;
+}
+
+.left, .right {
+  width: 50%;
+}
+
+/* LEFT SIDE */ 
+
+.left {
+  background-image: url("../images/bg-pattern-desktop.svg"); 
+  background-size: 1000px auto;
+  background-position: -510px -230px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.woman-img {
+  margin-top: 100px; 
+  margin-left: -100px;
+  width: 561px;
+  height: 427px;
+}
+
+.box {
+  position: absolute;
+  top: 277px; 
+  left: -93px;
+}
+
+/* RIGHT SIDE */ 
+
+.right {
+  margin: 50px 0 0 20px; 
+}
+
+.text-section {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  display: grid; 
+  grid-template-columns: 450px auto;
+  grid-template-rows: auto auto;
+  width: 480px; 
+}
+
+.text-section:hover {
+  cursor: pointer; 
+}
+
+h2:hover {
+  color: hsl(14, 88%, 65%); 
+}
+
+.arrow {
+  margin-top: 30px;
+}
+
+/* TEXT */ 
+
+h1 {
+  margin: 30px 0; 
+  font-size: 40px; 
+  color: hsl(238, 29%, 16%); 
+  font-weight: 700;
+}
+
+h2 {
+  color: hsl(237, 12%, 33%);
+  font-weight: 400;
+  font-size: 18px
+}
+
+p {
+  display: none;
+  margin-top: 0;
+  color: hsl(240, 6%, 50%);
+  font-size: 16px;
+}
+
