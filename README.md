@@ -10,7 +10,7 @@ Difficulty: Level 1 (Newbie)
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
+- View desktop site: 1100px width
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
