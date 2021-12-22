@@ -21,7 +21,7 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- CSS 
+- CSS (desktop only)
 - JavaScript 
 
 ### Screenshot
